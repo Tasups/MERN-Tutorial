@@ -5,7 +5,7 @@ const Users = () => {
     
     const USERS = [
         {
-            id: 'us1', 
+            id: 'u1', 
             name: 'Jason Whisnant', 
             places: 3, 
             image: "https://github.com/Tasups/images/blob/main/CthulhuReader.jpg?raw=true"

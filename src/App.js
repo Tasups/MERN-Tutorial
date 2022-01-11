@@ -5,26 +5,30 @@ import MainNavigation from './shared/components/Navigation/MainNavigation.js';
 import Users from './user/pages/Users.js';
 import NewPlace from './places/pages/NewPlace.js';
 import UserPlaces from './places/pages/UserPlaces.js';
+import UpdatePlace from './places/pages/UpdatePlace.js';
 
 const App = () => {
   return(
-      <Router>
-        <MainNavigation />
+    <Router>
+      <MainNavigation />
         <main>
-        <Switch>
+          <Switch>
             <Route path="/" exact>
-                <Users />
+              <Users />
             </Route>
             <Route path="/:userId/places" exact>
               <UserPlaces />
             </Route>
             <Route path="/places/new" exact>
-                <NewPlace />
+              <NewPlace />
+            </Route>
+            <Route path="/places/:placeId" exact>
+              <UpdatePlace />
             </Route>
             <Redirect to="/" />
-        </Switch>
+          </Switch>
         </main>
-      </Router>
+    </Router>
       );
 }
 

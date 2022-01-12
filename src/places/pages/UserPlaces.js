@@ -18,13 +18,13 @@ const DUMMY_PLACES = [
       },
       {
         id: 'p2',
-        title: 'Empire State Building',
-        description: 'One of the most famous sky scrapers in the world!',
-        imageUrl: 'https://github.com/Tasups/images/blob/main/empirestatebuilding.jpg?raw=true',
-        address: '20 W 34th St, New York, NY 10001',
+        title: 'Eiffel Tower',
+        description: 'One of the most famous buildings in the world!',
+        imageUrl: 'https://github.com/Tasups/images/blob/main/EiffelTower.jpg?raw=true',
+        address: 'Champ de Mars, 5 Av. Anatole France, 75007 Paris, France',
         location: {
-          lat: 40.7484405,
-          lng: -73.9856644
+          lat: 48.8584,
+          lng: 2.2945
         },
         creator: 'u2'
       }
